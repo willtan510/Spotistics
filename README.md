@@ -9,19 +9,28 @@ Below you'll find information about performing common tasks. The most recent ver
 This application was developed and tested exclusively on the Expo app and has not been ejected yet, meaning it is not a standalone app and needs a little work from the user. It should be followable with my instructions and the CRNA content below though.
 
 ## Steps to Run:
-### git clone https://github.com/willtan510/Spotistics.git
+```
+git clone https://github.com/willtan510/Spotistics.git
 
-### cd Spotistics
+cd Spotistics
 
-### npm install
+npm install
 
-### npm start
-
+npm start
+```
 Follow Expo app instructions to run app on your phone
 
-### Important Instructions (not the Expo ones) to make app work once running
+### Important Instructions (not the Expo ones) to make app work properly once running, necessary because not yet ejected into ios/android
 
+Create a client id at (https://developer.spotify.com/dashboard/) with any info
 
+Locate the Expo URL the app is running on after npm start loads completely (e.g. exp://192.168.1.1:19000)
+
+Click edit settings on the Spotify develops dashboard and paste this into the redirect URIs and save
+
+Goto /src/components/LoginForm.js, copy this same exp URL and paste it into line 16. Also copy the client ID you made and paste it into line 14. 
+
+Save file and run on the Expo app
 
 ## Table of Contents
 
