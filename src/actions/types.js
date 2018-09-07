@@ -1,0 +1,1 @@
+export const CUSTOMIZE_UPDATE =  'customize_update';

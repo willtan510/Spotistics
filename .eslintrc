@@ -1,0 +1,9 @@
+{
+	"extends":"rallycoding",
+	"rules":{
+		"arrow-body-style":0,
+		"object-curly-spacing":0,
+		"eol-last":0,
+		"space-infix-ops":0
+	}
+}
