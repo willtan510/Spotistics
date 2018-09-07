@@ -9,17 +9,17 @@ Below you'll find information about performing common tasks. The most recent ver
 This application was developed and tested exclusively on the Expo app and has not been ejected yet, meaning it is not a standalone app and needs a little work from the user. It should be followable with my instructions and the CRNA content below though.
 
 ## Steps to Run:
-git clone https://github.com/willtan510/Spotistics.git
+### git clone https://github.com/willtan510/Spotistics.git
 
-cd Spotistics
+### cd Spotistics
 
-npm install
+### npm install
 
-npm start
+### npm start
 
-Follow instructions below using Expo app on your phone
+Follow Expo app instructions to run app on your phone
 
-### Important Instructions to make app work once running
+### Important Instructions (not the Expo ones) to make app work once running
 
 
 
