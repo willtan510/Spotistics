@@ -98,9 +98,15 @@ class ListItem extends Component {
 					transparent
 					visible={this.state.showModalAlbum}
 					>	
-						<TouchableWithoutFeedback onPress={()=>this.setState({showModalAlbum: false})}>
+						<TouchableWithoutFeedback 
+						onPress= {() => this.setState({showModalAlbum: false})}
+						>
 							<View style={styles.bigAlbum}>
-								<Image source={{uri: images[0].url}} resizeMode={'contain'} style={{width: '100%', height: '100%'}}/>
+								<Image 
+								source={{uri: images[0].url}} 
+								resizeMode={'contain'} 
+								style={{width: '100%', height: '100%'}}
+								/>
 							</View>
 						</TouchableWithoutFeedback>
 					</Modal>

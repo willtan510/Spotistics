@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {Linking} from 'expo';
-import {View, Text, Image, FlatList} from 'react-native';
-import { Card, CardSection, Input, Button, Spinner } from './common';
+import {View, FlatList} from 'react-native';
+import { Card, Spinner } from './common';
 import ListItem from './ListItem';
 
 class DataList extends Component {
@@ -18,7 +17,6 @@ class DataList extends Component {
 
 	componentWillMount() {
 		this.retrieveData();
-		
 	}
 
 	rowID=0;
@@ -46,8 +44,6 @@ class DataList extends Component {
 			const title= this.state.artist ? 'Top Artists' : 'Top Tracks';
 			this.props.navigation.setParams({screenTitle: title});
 		});
-		//console.log(Linking.canOpenURL("https://open.spotify.com/track/7sO5G9EABYOXQKNPNiE9NR"));
-		//Linking.openURL("https://open.spotify.com/track/7sO5G9EABYOXQKNPNiE9NR");
 	}
 
 	returnList() {
@@ -79,17 +75,5 @@ class DataList extends Component {
 		);
 	}
 }
-
-const styles = {
-	headerStyle: {
-		alignItems: 'center',
-		paddingBottom: 3,
-		shadowColor:'#000',
-		shadowOffset:{width:0,height:2},
-		shadowOpacity:0.6,
-		elevation:2,
-		borderBottomColor: 'black'
-	}
-};
 
 export default DataList;

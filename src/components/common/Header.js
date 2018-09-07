@@ -1,10 +1,10 @@
 //import libraries
 import React, {Component} from 'react';
-import {View,Text} from 'react-native';
+import {View, Text} from 'react-native';
 //make component
 class Header extends Component {
-	render(){
-		const {textStyle,viewStyle}=styles;
+	render() {
+		const {textStyle, viewStyle}=styles;
 		return (<View style={viewStyle}>
 				<Text style={textStyle}>{this.props.headerText}</Text>
 				</View>
@@ -31,4 +31,4 @@ const styles = {
 };
 
 //make component avail to other parts
-export  {Header};
+export {Header};

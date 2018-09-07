@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 
 class CardSection extends Component{
 	render() {
@@ -21,6 +21,6 @@ const styles= {
 		borderColor: '#ddd',
 		position:'relative',
 	},
-}
+};
 
 export {CardSection};

@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
-import {Text, ScrollView,View, Image, Switch, Slider, Picker} from 'react-native';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import { Text, ScrollView, View, Switch, Slider, Picker } from 'react-native';
+import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
-import {CardSection, Card,Button} from './common';
+import { Card, Button} from './common';
 import { customizeUpdate } from '../actions';
 import { SHORT_TERM, MEDIUM_TERM, LONG_TERM } from '../constants';
 
 class Customize extends Component {
 
-	renderPicks(){
+	renderPicks() {
 		const arr = [];
 		for (let i = 1; i < 51; i++) {
 			const temp = i.toString();
@@ -81,7 +81,7 @@ class Customize extends Component {
 						minimumTrackTintColor='#1db954'
 						maximumTrackTintColor='#191414'
 						step={0.5}
-						onValueChange={value => this.props.customizeUpdate({prop:'sliderLength', value: value})}
+						onValueChange={value => this.props.customizeUpdate({prop: 'sliderLength', value: value})}
 						/>
 					</View>
 				</View>
