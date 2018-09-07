@@ -13,7 +13,7 @@ class LoginForm extends Component {
 	async loginUser() {
 		const clientId = '35031cd1f3b34162aba687d179b3bcb3';
 		const responseType = 'token';
-		const redirectUri = 'exp://192.168.1.4:19000';
+		const redirectUri = 'exp://131.179.31.191:19000';
 		const scope = 'user-top-read';
 		const showDialog = 'true';
 		const url = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=${responseType}&scope=${scope}&show_dialog=${showDialog}&redirect_uri=${encodeURIComponent(redirectUri)}`;
@@ -21,7 +21,6 @@ class LoginForm extends Component {
 		Linking.addEventListener('url', this.eventHandler.bind(this));
 
 		await WebBrowser.openBrowserAsync(url)
-		.catch(err => console.error('An error occurred', err));
 
 		Linking.removeEventListener('url', this.eventHandler.bind(this));
 	}

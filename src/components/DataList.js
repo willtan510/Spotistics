@@ -34,7 +34,6 @@ class DataList extends Component {
 		})
 		.then(response => response.json())
 		.then(data => {
-			console.log(data);
 			const orderLimit = (data.total < this.props.limit)? data.total : this.props.limit;
 			for (let i = 1; i < orderLimit + 1; i++){
 				(data.items)[i - 1].ordering = i;
@@ -43,7 +42,7 @@ class DataList extends Component {
 			this.setState({artist: data.items[0].type==='artist'});
 			const title= this.state.artist ? 'Top Artists' : 'Top Tracks';
 			this.props.navigation.setParams({screenTitle: title});
-		});
+			});
 	}
 
 	returnList() {
