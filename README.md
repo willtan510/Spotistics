@@ -9,7 +9,18 @@ Below you'll find information about performing common tasks. The most recent ver
 This application was developed and tested exclusively on the Expo app and has not been ejected yet, meaning it is not a standalone app and needs a little work from the user. It should be followable with my instructions and the CRNA content below though.
 
 ## How to run:
- 
+git clone https://github.com/willtan510/Spotistics.git
+
+cd Spotistics
+
+npm install
+
+npm start
+
+Follow instructions below using Expo app on your phone
+
+### Important Instructions to make app work once running
+
 
 
 ## Table of Contents
@@ -23,7 +34,6 @@ This application was developed and tested exclusively on the Expo app and has no
   * [npm run eject](#npm-run-eject)
 * [Environment Variables](#environment-variables)
   * [Configuring Packager IP Address](#configuring-packager-ip-address)
-* [Customizing App Display Name and Icon](#customizing-app-display-name-and-icon)
 * [Troubleshooting](#troubleshooting)
   * [Networking](#networking)
   * [iOS Simulator won't open](#ios-simulator-wont-open)
