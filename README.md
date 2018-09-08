@@ -16,8 +16,10 @@ cd Spotistics
 
 npm install
 
-npm start
+npm start  
 ```
+If error after npm start, may need to install watchman: (https://facebook.github.io/watchman/docs/install.html)
+
 Follow Expo app instructions to run app on your phone
 
 ### Important Instructions (not the Expo ones) to make app work properly once running, necessary because not yet ejected into ios/android
