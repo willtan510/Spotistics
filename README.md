@@ -30,7 +30,7 @@ Locate the Expo URL the app is running on after npm start loads completely (e.g.
 
 Click edit settings on the Spotify develops dashboard and paste this into the redirect URIs and save
 
-Goto /src/components/LoginForm.js, copy this same exp URL and paste it into line 16. Also copy the client ID you made and paste it into line 14. 
+Goto /src/components/LoginForm.js, copy this same exp URL and paste it into line 16. Also copy the client ID you created and paste it into line 14. 
 
 Save file and run on the Expo app
 
