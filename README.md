@@ -8,6 +8,14 @@ Below you'll find information about performing common tasks. The most recent ver
 
 This application was developed and tested exclusively on the Expo app and has not been ejected yet, meaning it is not a standalone app and needs a little work from the user. It should be followable with my instructions and the CRNA content below though.
 
+### Sample Screens
+
+<p align="center">
+<img src="https://i.gyazo.com/44c19ce11afaaef36c7eaa003686fb48.jpg" data-canonical-src="https://i.gyazo.com/44c19ce11afaaef36c7eaa003686fb48.jpg" width="176" height="302" align="left"/>    <img src="https://i.gyazo.com/213af03cf06c83d0413c2a35208cf674.jpg" data-canonical-src="https://i.gyazo.com/213af03cf06c83d0413c2a35208cf674.jpg" width="176" height="302" />    <img src="https://i.gyazo.com/7c9d7d13fee384be2050487e723aae25.jpg" data-canonical-src="https://i.gyazo.com/7c9d7d13fee384be2050487e723aae25.jpg" width="176" height="302" align="right"/>
+</p>
+
+
+
 ## Steps to Run:
 ```
 git clone https://github.com/willtan510/Spotistics.git
